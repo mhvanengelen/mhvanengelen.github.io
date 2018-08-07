@@ -8,7 +8,7 @@ var heightInCM = height / 100
 var heightInCMSquared = math.pow(heightInCM, 2)
 var bmi = weight / heightInCMSquared
 
-console.log('CurrentBMI = ${bmi}'')
+console.log('CurrentBMI = ${bmi}')
 
 var idealBMI = 22.5
 var idealWeight = idealBMI * heightInCMSquared
